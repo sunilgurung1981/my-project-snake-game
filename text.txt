@@ -1,0 +1,46 @@
+//user story
+I want to see a landing page when I arrive at the website to know I’m in the right place.
+i want to see  equal row and columns of box on the board.
+i want to see snake and food somewhere in the board to play the game
+i want to move snake with arrow key (up, down, left and right) from my keyboard
+i want my snake increase size if i sucessfully eat food and update the score
+i want message display clearly as game over  if snake hit any edge or hit it self 
+i want play again botton visiable right  below the score botton to re-start the game.
+
+
+
+//HTMl code
+create a h1 tage with game name
+create div element to  declaire the cells
+
+
+// css coding
+make body take as flex box to aline every element to center and than apply 
+grid property to keep all cell evenly to all side, also use grid temtemplate
+to spacified total number of rows and colcolumns
+use gap property to make space betweem cells
+use some color and background-color property to make cell more clear. 
+
+
+//js code
+select the game board element using DOM
+-> state 
+    declaire the snake's intial position
+    declaire the direction 
+    declaire food position (as random- computer pick using math.random() should not equal to snake positionmethod)
+    declaire game status (as false )
+
+loop
+update the snake position
+    check the collision
+    - if snake head touch the edge of board than set game status to true
+    - if snake head collides with his body than set game status to true
+    check if snake eat the food
+    - if true than grow the snake size by 1 cell (adding position at first index of array)
+    -generate a new food position
+    -update the score
+
+dom-event listener
+    - change the snake direction based on user input which would be arrow key from user key board
+
+display final result when game is over
