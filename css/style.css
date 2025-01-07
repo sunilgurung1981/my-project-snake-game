@@ -18,6 +18,15 @@
     cursor: pointer;
 }
 
+
+#resetBtn:hover {
+    background-color: green;
+}
+
+#resetBtn:active {
+    background-color: orange;
+} 
+
 .header-line {
     position: relative;
     white-space: nowrap;
