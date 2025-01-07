@@ -26,7 +26,7 @@
 #resetBtn:active {
     background-color: orange;
 } 
-
+/* css code to just move hearder-line text to right 
 .header-line {
     position: relative;
     white-space: nowrap;
@@ -43,4 +43,21 @@
 @keyframes moveRight {
     0%   { transform: translateX(-100%); }
     100% { transform: translateX(100%); }
+} */
+
+/* mordify above code so text will move back and forth */
+.header-line {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+  
+    -webkit-animation: moveLeftToRightAndBack 10s linear infinite;
+            animation: moveLeftToRightAndBack 10s linear infinite;
+}
+
+@keyframes moveLeftToRightAndBack {
+    0%   { transform: translateX(-100%); }      /* Start at the left edge */
+    50%  { transform: translateX(100%); }   /* Move to the right edge */
+    100% { transform: translateX(-100%); }      /* Return to the left edge */
 }
