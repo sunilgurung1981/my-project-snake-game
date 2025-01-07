@@ -17,3 +17,21 @@
     border-radius: 15px;
     cursor: pointer;
 }
+
+.header-line {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: moveRight 5s linear infinite;
+            animation: moveRight 5s linear infinite;
+}
+
+@-webkit-keyframes moveRight {
+    0%   { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+@keyframes moveRight {
+    0%   { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
