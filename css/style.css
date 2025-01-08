@@ -1,3 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/pexels-pixabay-80474.jpg");
+    background-position: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+}
+
 #gameContainer{
     text-align: center;
 }
@@ -5,11 +15,11 @@
     border: 3px solid;
 }
 #scoreText{
-    font-family:  cursive;
+    font-family: Arial, cursive;
     font-size: 100px;
 }
 #resetBtn{
-    font-family:  cursive;
+    font-family: Arial, cursive;
     font-size: 22px;
     width: 100px;
     height: 50px;
@@ -47,17 +57,19 @@
 
 /* mordify above code so text will move back and forth */
 .header-line {
-    position: relative;
-    white-space: nowrap;
-    overflow: hidden;
+    /* position: relative; */
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* padding: 0;
+    margin: 0; */
     width: 100%;
   
     -webkit-animation: moveLeftToRightAndBack 10s linear infinite;
             animation: moveLeftToRightAndBack 10s linear infinite;
 }
 
-@keyframes moveLeftToRightAndBack {
-    0%   { transform: translateX(-100%); }      /* Start at the left edge */
-    50%  { transform: translateX(100%); }   /* Move to the right edge */
-    100% { transform: translateX(-100%); }      /* Return to the left edge */
+ @keyframes moveLeftToRightAndBack {
+    0%   { transform: translateX(0%); }      
+    50%  { transform: translateX(85%); }   
+    100% { transform: translateX(0%); }      
 }
