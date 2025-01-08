@@ -2,6 +2,8 @@ const gameBoard = document.querySelector("#gameBoard");
 const ctx = gameBoard.getContext("2d");
 const scoreText = document.querySelector("#scoreText");
 const resetBtn = document.querySelector("#resetBtn");
+// creating variable for eating sound
+const eatenSound = new Audio("/audio/eat-sound.mp3");
 const gameWidth = gameBoard.width;
 const gameHeight = gameBoard.height;
 const boardBackground = "white";
@@ -73,6 +75,7 @@ function moveSnake() {
   //if food is eaten
   if (snake[0].x == foodX && snake[0].y == foodY) {
     score += 1;
+    eatenSound.play();
     scoreText.textContent = score;
     createFood();
   } else {
