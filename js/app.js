@@ -4,6 +4,8 @@ const scoreText = document.querySelector("#scoreText");
 const resetBtn = document.querySelector("#resetBtn");
 // creating variable for eating sound
 const eatenSound = new Audio("/audio/eat-sound.mp3");
+// creating variable for game over
+const gameoverAudio = new Audio("/audio/game-over.mp3");
 const gameWidth = gameBoard.width;
 const gameHeight = gameBoard.height;
 const boardBackground = "white";
@@ -148,6 +150,7 @@ function displayGameOver() {
   ctx.textAlign = "center";
   ctx.fillText("GAME OVER!", gameWidth / 2, gameHeight / 2);
   running = false;
+  gameoverAudio.play();
 }
 function resetGame() {
   score = 0;
