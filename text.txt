@@ -15,10 +15,7 @@ create div element to  declaire the cells
 
 
 // css coding
-make body take as flex box to aline every element to center and than apply 
-grid property to keep all cell evenly to all side, also use grid temtemplate
-to spacified total number of rows and colcolumns
-use gap property to make space betweem cells
+make body take as flex box to aline every element to center 
 use some color and background-color property to make cell more clear. 
 
 
