@@ -7,7 +7,7 @@
 
   ##### Creator: Sunil K Gurung
 
- <img src="https://github.com/sunilgurung1981/my-project-snake-game/blob/main/Screen%20Shot%202025-01-09%20at%203.23.42%20PM.png" alt="game-screen" width= 50px>
+ <img src="https://github.com/sunilgurung1981/my-project-snake-game/blob/main/Screen%20Shot%202025-01-09%20at%203.23.42%20PM.png" alt="game-screen" width= 200px>
 
   ## :pencil: Description
 
