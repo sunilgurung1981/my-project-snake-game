@@ -39,5 +39,5 @@
 
 ## :satellite: Upcoming Features
 
-- [:x:] add some more functionality on game such as increase speead of snake after player score 20 and so on
-- [:x:] add background audio which play all the time 
+-  add some more functionality on game such as increase speead of snake after player score 20 and so on
+-  add background audio which play all the time 
