@@ -2,6 +2,8 @@ const gameBoard = document.querySelector("#gameBoard");
 const ctx = gameBoard.getContext("2d");
 const scoreText = document.querySelector("#scoreText");
 const resetBtn = document.querySelector("#resetBtn");
+// const backgoundMusic = document.querySelector("#backgoundMusic");
+const backgroundMusic = new Audio("/audio/snake-sound.mp3");
 // creating variable for eating sound
 const eatenSound = new Audio("/audio/eat-sound.mp3");
 // creating variable for game over
@@ -42,6 +44,8 @@ function gameStart() {
 function nextTick() {
   if (running) {
     setTimeout(() => {
+      backgroundMusic.volume = 0.05;
+      backgroundMusic.play();
       clearBoard();
       drawFood();
       moveSnake();
