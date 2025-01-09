@@ -7,11 +7,11 @@ const scoreText = document.querySelector("#scoreText");
 // storing reset btn in variable
 const resetBtn = document.querySelector("#resetBtn");
 // const backgoundMusic = document.querySelector("#backgoundMusic");
-const backgroundMusic = new Audio("/assets/audio/snake-sound.mp3");
+const backgroundMusic = new Audio("assets/audio/snake-sound.mp3");
 // creating variable for eating sound
-const eatenSound = new Audio("/assets/audio/eat-sound.mp3");
+const eatenSound = new Audio("assets/audio/eat-sound.mp3");
 // creating variable for game over
-const gameoverAudio = new Audio("/assets/audio/game-over.mp3");
+const gameoverAudio = new Audio("assets/audio/game-over.mp3");
 const gameWidth = gameBoard.width; 
 const gameHeight = gameBoard.height;
 // asigning css value in variable 
