@@ -26,4 +26,13 @@
 
 ## :computer: Code Editor
   ![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
-  
+
+  ## :fire: Getting Started
+
+<details open>
+  <summary> How to play game </summary>
+    1. Use the Arrow Key to control the movement of snake.
+    2. Try to eat food by reaching to food position to gain score as weel increase the size of snake.
+    3. Protect snake collision with itself or any side of wall otherwise game will be over.
+    4. If Game over player can "click" Reset button to re-start the game to play again.
+</details>
