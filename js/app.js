@@ -1,26 +1,32 @@
+//caching the html element ganeboard and storing in variable
 const gameBoard = document.querySelector("#gameBoard");
+//storing the canves in variable
 const ctx = gameBoard.getContext("2d");
+//declaire the variable to store score text
 const scoreText = document.querySelector("#scoreText");
+// storing reset btn in variable
 const resetBtn = document.querySelector("#resetBtn");
 // const backgoundMusic = document.querySelector("#backgoundMusic");
-const backgroundMusic = new Audio("/audio/snake-sound.mp3");
+const backgroundMusic = new Audio("/assets/audio/snake-sound.mp3");
 // creating variable for eating sound
-const eatenSound = new Audio("/audio/eat-sound.mp3");
+const eatenSound = new Audio("/assets/audio/eat-sound.mp3");
 // creating variable for game over
-const gameoverAudio = new Audio("/audio/game-over.mp3");
-const gameWidth = gameBoard.width;
+const gameoverAudio = new Audio("/assets/audio/game-over.mp3");
+const gameWidth = gameBoard.width; 
 const gameHeight = gameBoard.height;
+// asigning css value in variable 
 const boardBackground = "white";
 const snakeColor = "lightgreen";
 const snakeBorder = "black";
 const foodColor = "red";
-const unitSize = 25;
-let running = false;
+const unitSize = 25; // set the unit size of block in canves
+let running = false; 
 let xVelocity = unitSize;
 let yVelocity = 0;
 let foodX;
 let foodY;
 let score = 0;
+// making a snake body using x and y coordinate 
 let snake = [
   { x: unitSize * 4, y: 0 },
   { x: unitSize * 3, y: 0 },
@@ -30,10 +36,13 @@ let snake = [
 ];
 //adding event listner for keyboard arrow key and click for restart button
 window.addEventListener("keydown", changeDirection);
+// adding event listner for click event
 resetBtn.addEventListener("click", resetGame);
 
+//start the game
 gameStart();
 
+// code to start the game
 function gameStart() {
   running = true;
   scoreText.textContent = score;

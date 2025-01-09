@@ -14,7 +14,7 @@ body::before {
     
     width: 100%;
     height: 100%;
-    background-image: url("/pexels-pixabay-80474.jpg"); 
+    background-image: url("/assets/image/pexels-pixabay-80474.jpg"); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
