@@ -5,7 +5,7 @@
   ### https://sunilgurung1981.github.io/my-project-snake-game/
 
 
-  ##### Creator: Sunil K Gurung
+  ##### Created by: Sunil K Gurung
 
 
 
