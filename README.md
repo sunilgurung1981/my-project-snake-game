@@ -15,6 +15,9 @@
 
  <img src="https://github.com/sunilgurung1981/my-project-snake-game/blob/main/Screen%20Shot%202025-01-09%20at%203.23.42%20PM.png" alt="game-screen" width= 500px>
 
+
+  </div>
+
  ## :computer: Technologies Used
   ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
   ![HTML5](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)
@@ -23,4 +26,3 @@
 ## :computer: Code Editor
   ![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
   ![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
-  </div>
