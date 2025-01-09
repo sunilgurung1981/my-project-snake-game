@@ -36,3 +36,8 @@
     3. Protect snake collision with itself or any side of wall otherwise game will be over.
     4. If Game over player can "click" Reset button to re-start the game to play again.
 </details>
+
+## :satellite: Upcoming Features
+
+- [:x:] add some more functionality on game such as increase speead of snake after player score 20 and so on
+- [:x:] add background audio which play all the time 
