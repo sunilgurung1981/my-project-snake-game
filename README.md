@@ -29,7 +29,7 @@
 
   ## :fire: Getting Started
 
-<details open>
+<details>
   <summary> How to play game </summary>
     1. Use the Arrow Key to control the movement of snake.
     2. Try to eat food by reaching to food position to gain score as weel increase the size of snake.
