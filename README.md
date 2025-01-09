@@ -2,8 +2,8 @@
 
   # SNAKE GAME
 
-  ### [CLICK TO DEMO]([https://meetyourclassmates.herokuapp.com/](https://sunilgurung1981.github.io/my-project-snake-game/
-))
+  ### ([https://meetyourclassmates.herokuapp.com/](https://sunilgurung1981.github.io/my-project-snake-game/)
+
 
   ##### Sunil K Gurung
 
