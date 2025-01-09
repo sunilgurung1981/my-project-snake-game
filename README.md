@@ -24,7 +24,7 @@
   ![CSS3](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)
   ![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
 
-## :computer: Code Editor
+## :computer: Code Editor Used
   ![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
 
 ## :fire: Getting Started
