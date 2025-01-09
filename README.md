@@ -2,12 +2,12 @@
 
   # SNAKE GAME
 
-  ### (https://sunilgurung1981.github.io/my-project-snake-game/)
+  ### https://sunilgurung1981.github.io/my-project-snake-game/
 
 
   ##### Sunil K Gurung
 
-  [![LinkedIn Badge](https://img.shields.io/badge/-@amarpan-blue?style=flat&logo=Linkedin&logoColor=black)](https://www.linkedin.com/in/amarpan/)
+ 
 
   ## :pencil: Description
 
