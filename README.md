@@ -42,6 +42,7 @@
    <a href= "https://sunilgurung1981.github.io/my-project-snake-game/"> snake-game </a>
 </details>
 
+
 ## :satellite: Upcoming Features
 
 -  add some more functionality on game such as increase speead of snake after player score 20 and so on
