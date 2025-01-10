@@ -42,6 +42,12 @@
    <a href= "https://sunilgurung1981.github.io/my-project-snake-game/"> snake-game </a>
 </details>
 
+<details open>
+  <summary> Link of User story and planning </summary>
+  <a href="[https://meetyourclassmates.herokuapp.com/](https://github.com/sunilgurung1981/my-project-snake-game/blob/main/text.txt)"
+    > User story and planning </a
+  >
+</details>
 
 ## :satellite: Upcoming Features
 
