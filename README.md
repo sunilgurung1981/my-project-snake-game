@@ -29,7 +29,7 @@
 
 ## :fire: Getting Started
 
-<details>
+<details open>
   <summary> How to play game </summary>
     1. Use the Arrow Key to control the movement of snake.<br> 
     2. Try to eat food by reaching to food position to gain score as weel increase the size of snake. <br>
@@ -37,7 +37,7 @@
     4. If Game over player can "click" Reset button to re-start the game to play again. <br>
 </details>
 
-<details>
+<details open>
   <summary> Game Deployed Link </summary>
    <a href= "https://sunilgurung1981.github.io/my-project-snake-game/"> snake-game </a>
 </details>
