@@ -37,6 +37,11 @@
     4. If Game over player can "click" Reset button to re-start the game to play again. <br>
 </details>
 
+<details>
+  <summary> Game Deployed Link </summary>
+   <a href= "https://sunilgurung1981.github.io/my-project-snake-game/">
+</details>
+
 ## :satellite: Upcoming Features
 
 -  add some more functionality on game such as increase speead of snake after player score 20 and so on
