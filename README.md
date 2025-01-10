@@ -39,7 +39,7 @@
 
 <details>
   <summary> Game Deployed Link </summary>
-   <a href= "https://sunilgurung1981.github.io/my-project-snake-game/">
+   <a href= "https://sunilgurung1981.github.io/my-project-snake-game/"> snake-game </a>
 </details>
 
 ## :satellite: Upcoming Features
