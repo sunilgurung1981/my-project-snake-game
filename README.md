@@ -29,7 +29,7 @@
 
 ## :fire: Getting Started
 
-<details open>
+<details>
   <summary> How to play game </summary>
     1. Use the Arrow Key to control the movement of snake.<br> 
     2. Try to eat food by reaching to food position to gain score as weel increase the size of snake. <br>
@@ -47,6 +47,13 @@
   <a href="https://meetyourclassmates.herokuapp.com/](https://github.com/sunilgurung1981/my-project-snake-game/blob/main/text.txt)"
     > User story and planning </a>
 </details>
+
+<details>
+  <summary> What learn by this Project </summary>
+  JavaScript skill like DOM manipulation, event handling, arrys, function and loop. also how to managing game state and make it interactive
+</details>
+
+
 
 ## :satellite: Upcoming Features
 
